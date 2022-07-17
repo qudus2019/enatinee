@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=PT+Sans&display=swap');
+
+
+* {
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+
+body{
+    background-color:  #F8F6FD;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width:1300px;
+    padding: 10px 100px;
+}
+
+nav{
+    width:35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #8F71E5
+    
+}
+
+.call-btn,input[type='submit'] {
+    width:130px;
+    padding: 10px;
+    border: none;
+    height: fit-content;
+    background: #8F71E5;
+    border-radius: 5px;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+ svg{
+    width:25px;
+}
+
+
+header h1{
+    color:#8F71E5;
+    margin-top: 20px;
+}
+
+header, #hero-section{
+    background-color: silvr;
+}
+
+#hero-section{
+    display:grid;
+    grid-template-columns:1fr 1fr ;
+    gap:100px;
+    width:85vw;
+    height:fit-content;
+    margin:40px auto;
+
+}
+.hero-title{
+    font-size: 4em;
+}
+
+.hero-title span{
+    font-weight: 400;
+}
+
+.callnchat{
+    display: flex;
+    margin-top: 40px;   
+}
+
+
+.callnchat button{
+    padding:8px;
+    background-color:silve;
+    border:none;
+    display:flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.chatbtn{
+    color:#8F71E5;
+    background: inherit;
+    margin:20px auto;
+}
+
+.ratingdiv{
+    width:80%;
+    background-color: #E4DCF9;
+    margin-top: 40px;
+    border-radius:10px;
+    position: relative;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    padding:30px;
+
+}
+
+.image-wrapper{
+    position: relative;
+    height: 100%;
+}
+.image-wrapper img{
+    width:100%;
+    height: 95%;
+    position: absolute;
+    top: 10px;
+}
+
+.div{
+    position: absolute;
+    width:98%;
+    height: 100%;
+    border-radius: 10px;
+    top:0px;
+    left:30px;
+    background-color: #8F71E5;
+    z-index: -1;
+}
+
+
+.services-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:100px;
+    width:85vw;
+    margin: 60px auto;
+}
+
+.wrapper{
+    width:100%;
+    height:100%;
+   
+}
+.wrapper img{
+    width:100%;
+    height:100%;
+}
+.services-wrapper{
+    padding:30px;
+    display: grid;
+    gap:20px;
+    grid-template-columns: 1fr 1fr ;
+}
+.title-wrapper{
+    grid-column: span 2;
+}
+
+.service{
+    padding:20px;
+    height:fit-content;
+    border: 2px solid #E4DCF9;
+    border-radius: 5px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.choose-us{
+    max-width:1500px;
+    background-color:#8F71E5;
+    padding:6em;
+    color:white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+ .title{
+    grid-column: span 3;
+    
+    margin-bottom:1.5em ;
+    font-size: 2.5rem;
+    text-align: center;
+    float: left;
+}
+.reason svg{
+    float:left;
+    margin-right: 20px;
+    
+}
+.title p {
+    font-size: small;
+    text-align: center;
+}
+.reason-exp{
+    margin-left: 30px;
+    text-align: left;
+    clear: both;
+    margin-top: 10px;
+}
+
+.reason svg{
+    margin-right: 5px;
+}
+
+
+.testimony-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:100px;
+    max-width:1500px;
+    padding: 80px;
+    background: white;
+}
+
+.testimony-section .title{
+    grid-column: span 4;
+    text-align: center;
+    margin-bottom: -40px;
+    }
+
+.testimony{
+    padding:20px;
+    background-color: #F7F7F8;
+    border-radius: 10px;
+}
+
+.profile{
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.profile img{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+
+.profile span{
+    margin-left:10px;
+    font-weight:700;
+}
+
+.ready{
+    width:85vw;
+    margin: 3em auto;
+    background-color:#E4DCF9;
+    font-size: 2em;
+    text-align: center;
+    height: 250px;   
+    border-radius: 40px;
+    padding:20px;
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+}
+
+.call-btn{
+   
+    padding:10px;
+    margin:20px auto;
+}
+
+footer{
+display: flex;
+justify-content: space-between;
+width:85vw;
+    margin: 3em auto;
+    font-size: 1em;
+    text-align: left;
+    height: 150px;   
+    padding:0px;
+    
+}
+
+.copyright h2 span{
+    font-size: small;
+    
+}
+
+.copyright h2{
+letter-spacing: 0.2em;
+color: purple;
+}
+
+
+.social-logo img{
+    width:25px;
+    height:50px;
+    margin: 15px auto;
+    color: white;
+}
+
+
+
+.social-logo img:hover{
+    transform: scale(1.8);
+}
+
+.footer-links a {
+    display:block;
+    margin:10px auto;
+}
+
+#Mail{
+    height:;
+    min-width: 200px;
+    border:none;
+    background-color: rgb(228, 224, 224);
+    padding:10px;
+    border-radius: 5px;
+    
+}
+#burger{
+    display: none;
+}
+
+label{
+  
+    width:100%;
+}
+
+input[type='submit']{
+    width:70px;
+    margin-top: 20px;
+}
+
+.subscribe h3{
+margin:20px auto;
+}
+
+
+a:hover,.social-logo a img{
+transform:scale(1.3)
+}
+img[src="img/twitter.svg"]{
+    width:43px;
+   
+}
+img[src="img/instagram-brands.svg"]{
+    width:30px;
+    
+}
+
+@media only screen and (max-width:1040px){
+
+nav {
+    width:55%;
+}
+.testimony-section{
+    gap:60px;
+    padding: 60px;
+   
+}
+
+}
+
+@media screen and (max-width:967px){
+    #hero-section, .services-section{
+        gap:60px;
+    }
+    .choose-us{
+       
+        padding:3em;
+       
+    }
+
+    .reason svg{
+        margin-right:10px;
+    }
+
+    .hero-title{
+        font-size: 3.5em;
+    }
+}
+
+@media screen and (max-width:780px){
+    .hero-title{
+        font-size: 3em;
+    }
+
+    .testimony-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .testimony{
+        width:70%;
+        margin-top: -20px;
+    }
+
+    .testimony-section .title{
+        
+        margin-bottom: 30px;
+        }
+
+        .ratingdiv{
+            width:100%;
+            
+        }
+        ul{
+            padding:20px;
+        }
+}
+
+@media screen and (max-width:730px) {
+    header{
+        padding:10px 40px;
+    }
+
+    .callnchat button{
+        margin-right: 10px;
+    }
+    
+}
+
+@media screen and (max-width:650px) {
+    #hero-section,.services-section{
+        display: block;
+    }
+    .wrapper{
+        height:300px;
+        width:100%;
+    }
+
+    .wrapper img{
+        margin:10px auto;
+    }
+
+    .choose-us{
+        padding:30px 20px;
+        font-size:0.8em
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        width:85vw;
+            margin: 2em auto;
+            font-size: 0.8em;
+            text-align: left;
+            height: 150px;   
+            padding:0px;
+            
+        }
+}
+
+@media screen and (max-width:630px) {
+    header{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    header h1{
+       text-align: center;
+       font-size: 4em;
+    }
+    main h1{
+        font-size: 2.5em;
+        padding: 10px;
+    }
+    nav{
+        width:100%;
+        margin:10px auto;
+    }
+        h2.hero-title{
+            text-align: center;
+        }
+
+        .choose-us{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .reason{
+            grid-column: span 2;
+            margin:20px;
+        }
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size:1.2em ;
+    }
+
+    .footer-links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: larger;
+        margin: 20px 40px 20px 0px;
+    }
+
+    .socials{
+        display:flex ;
+        justify-content: space-evenly;
+        margin: 20px 0;
+    }
+
+    div.subscribe{
+        margin:30px auto;
+    }
+
+    input[type='email']{
+        width: 80%;
+        height:50px;
+        margin-top: 10px;
+    }
+
+    input[type='submit']{
+        width: 100px;
+        height:50px;
+        margin: 10px auto;
+    }
+
+    img[src="img/twitter.svg"]{
+        width:45px;
+        height:55px;
+    }
+    
+    img[src="img/instagram-brands.svg"]{
+        width:33px;
+        height:55px;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width:420px){
+    #burger{
+        display: flex;
+        justify-content: end;
+        width:40px;
+        margin-top: 10px;
+    }
+
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        position: absolute;
+        top:100px;
+        right:30px;
+        background:white ;
+        transition: all 1000ms;
+        padding: 5px;
+        width:250px;
+        border-radius: 20px;
+    }
+
+    nav a{
+        margin-top: 30px;
+        justify-self: start;
+        font-size: large;
+        border-bottom: 2px solid white;
+        transition:all 500ms;
+    }
+
+    header{
+        display: flex;
+        position: relative;
+    }
+
+    header h1{
+        margin: 30px 0px;
+        font-size: 2em;
+        
+    }
+
+    #burger:hover{
+        transform: scale(1.1);
+    }
+
+    footer{
+        font-size: large;
+    }
+    body{
+        overflow: hidde;
+    }
+
+    img[src="img/instagram-brands.svg"]{
+        width:33px;
+        margin-top: 15px;
+    }
+    div.socials{
+       
+        height:50px;
+        margin-bottom: 10px;
+    }
+
+    
+}
+
